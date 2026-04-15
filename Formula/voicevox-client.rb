@@ -1,18 +1,18 @@
 class VoicevoxClient < Formula
   desc "Unofficial VOICEVOX CLI for macOS"
   homepage "https://github.com/tattn/voicevox-client"
-  version "1.2.1"
+  version "1.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tattn/voicevox-client/releases/download/1.2.1/voicevox-client-1.2.1-macos-arm64.tar.gz"
-      sha256 "5377da5f638329d7d53cae255ce550913ab0fd95692b151959644fed0f7fbf48"
+      url "https://github.com/tattn/voicevox-client/releases/download/1.2.2/voicevox-client-1.2.2-macos-arm64.tar.gz"
+      sha256 "9b39bc52d5e47d9fdc539cfdfa47f860b48a1cae310bb74604d497dee3f06c7f"
     end
 
     on_intel do
-      url "https://github.com/tattn/voicevox-client/releases/download/1.2.1/voicevox-client-1.2.1-macos-x86_64.tar.gz"
-      sha256 "4a9db357d64037ef2527af3f10c9602754d0e7d859a06dc2583c92efcfb60cfd"
+      url "https://github.com/tattn/voicevox-client/releases/download/1.2.2/voicevox-client-1.2.2-macos-x86_64.tar.gz"
+      sha256 "a0233944cf8934642e0af92a4f19cc122df7f9688345e0e5d4fb5ff63f7be2d3"
     end
   end
 
